@@ -1,57 +1,89 @@
-*{
-    margin: 0;
-    padding: 10;
+body {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgb(113, 255, 137);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabeçalho {
-    background-color: #afff90;
-    color: rgb(255, 0, 0);
+ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    list-style-type: none;
     align-items: center;
-    padding: 24px 0;
-    font-size: 70px;
+    padding: 16px;
 }
 
-
-.cabeçalho-lista-item{
-    display: inline-block;
-    margin: 0 12px;
-    font-size: 40px;
-    color: rgb(255, 0, 0);
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.cabeçalho-lista-item-1{
-    display: inline-block;
-    margin: 0 12px;
-    font-size: 50px;
-    color: #00c3ff;
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5BBE42;
 }
 
-.cabeçalho-lista-item-2{
-    display: inline-block;
-    margin: 0 12px;
-    font-size: 40px;
-    color: #000000
+.center {
+    text-align: center;
 }
 
-.principal {
-    background-image: url(img/globo.jpg);
-    background-repeat: no-repeat;
-    background-size: 0%;
+h1 {
+    color: #008286;
+    font-size: 45px;
+}
+
+h2 {
+    color: #8000bb;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
 }
 
 .container {
-    height: 100vh;
-    display: grid;
+    padding: 0px 50px;
 }
 
-.container_botao {
-    background-color: var(#EBFF6F)
-    border-radius: 5px;
-    color: var(--branco-principal)
+nav a {
+    font-size: 20px;
 }
 
-.container_imagem {
-    margin: 1em 0 1em 0;
+nav a:hover {
+    color: #5BBE42;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
 }
